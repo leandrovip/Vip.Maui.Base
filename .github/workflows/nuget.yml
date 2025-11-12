@@ -36,16 +36,13 @@ jobs:
       - name: "Setup .NET Core"
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: "5.0.x"
+          dotnet-version: "9.0.x"
 
       - name: Build Project
-        run: dotnet build ./src/Vip.Xamarin.Base.sln --configuration Release -p:Version=$VERSION_PROJECT
-
-      #- name: Test Project
-      #  run: dotnet test ./src/Vip.Xamarin.Base.sln
+        run: dotnet build ./src/Vip.Maui.Base.sln --configuration Release -p:Version=$VERSION_PROJECT
 
       - name: Create Package
-        run: dotnet pack ./src/Vip.Xamarin.Base/Vip.Xamarin.Base.csproj --configuration Release -p:Version=$VERSION_PACKAGE
+        run: dotnet pack ./src/Vip.Maui.Base/Vip.Maui.Base.csproj --configuration Release -p:Version=$VERSION_PACKAGE
 
       - name: Publish Package
-        run: dotnet nuget push ./src/Vip.Xamarin.Base/bin/Release/*.nupkg -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_TOKEN }}
+        run: dotnet nuget push ./src/Vip.Maui.Base/bin/Release/*.nupkg -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_TOKEN }}
