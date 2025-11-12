@@ -1,21 +1,20 @@
-
-<h2 align="center"><strong>Vip.Xamarin.Base</strong></h2> 
+<h2 align="center"><strong>Vip.Maui.Base</strong></h2>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/leandrovip/Vip.Xamarin.Base/master/LICENSE">
-    <img src="https://img.shields.io/github/license/leandrovip/Vip.Xamarin.Base" />
+  <a href="https://raw.githubusercontent.com/leandrovip/Vip.Maui.Base/master/LICENSE">
+    <img src="https://img.shields.io/github/license/leandrovip/Vip.Maui.Base" />
   </a>
   
-  <a href="https://www.nuget.org/packages/Vip.Xamarin.Base/">
-    <img alt="Nuget" src="https://img.shields.io/nuget/dt/Vip.Xamarin.Base?label=NuGet%20downloads&style=flat-square">
+  <a href="https://www.nuget.org/packages/Vip.Maui.Base/">
+    <img alt="Nuget" src="https://img.shields.io/nuget/dt/Vip.Maui.Base?label=NuGet%20downloads&style=flat-square">
   </a>
   
-  <a href="https://www.nuget.org/packages/Vip.Xamarin.Base/">
-     <img alt="NuGet" src="https://img.shields.io/nuget/v/Vip.Xamarin.Base.svg">
+  <a href="https://www.nuget.org/packages/Vip.Maui.Base/">
+     <img alt="NuGet" src="https://img.shields.io/nuget/v/Vip.Maui.Base.svg">
   </a>
 </p>
 
-Biblioteca com classes base para auxiliar no desenvolvimento de aplicativos móveis com Xamarin Forms.
+Biblioteca com classes base para auxiliar no desenvolvimento de aplicativos móveis com MAUI.
 
 - MVVM
 - Commands
@@ -35,8 +34,9 @@ Biblioteca com classes base para auxiliar no desenvolvimento de aplicativos móv
 ## Instalação via NuGet
 
 ```csharp
-Install-Package Vip.Xamarin.Base
+Install-Package Vip.Maui.Base
 ```
 
 # Licença
+
 MIT

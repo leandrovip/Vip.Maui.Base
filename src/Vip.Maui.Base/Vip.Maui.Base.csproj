@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Authors>Leandro Ferreira</Authors>
+    <Company>Vip Soluções</Company>
+    <Description>A simple library for mobile development with maui</Description>
+    <Copyright>Copyright 2021</Copyright>
+    <PackageProjectUrl>https://github.com/leandrovip/Vip.Maui.Base</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/leandrovip/Vip.Maui.Base</RepositoryUrl>
+    <PackageTags>vip maui</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;CS8632</NoWarn>
+  </PropertyGroup>
+
+</Project>
