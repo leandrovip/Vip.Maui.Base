@@ -29,7 +29,7 @@ Biblioteca com classes base para auxiliar no desenvolvimento de aplicativos móv
 
 ## Pré requisitos
 
-- .Net Standard 2.0
+- .Net 8
 
 ## Instalação via NuGet
 
